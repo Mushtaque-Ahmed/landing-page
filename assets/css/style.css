@@ -1,0 +1,400 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+/* .navbar{
+    top: fixed;
+    box-shadow: rgb(rgb(165, 163, 163));
+   
+
+} */
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.5ms;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item a:hover{
+    color: rgb(20, 219, 20);
+    
+}
+.navbar-brand img{
+    height: 60px;
+    width: 120px;
+}
+.search{
+    height: 45px;
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    background-color: transparent;
+border-radius: 20px 0px 0px 20px;
+border-right: none;
+}
+
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    margin-right: 25px;
+    text-transform: uppercase;
+    border-radius: 0px 20px 20px 0px;
+    color: white;
+    transition: all 0.5s;
+    
+}
+.btn1:hover{
+    background-color: rgb(13, 172, 13);
+}
+.fa-bag-shopping{
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+}
+.fa-bag-shopping:hover{
+    color: rgb(20, 219, 20);
+}
+.navbar-toggler{
+    color: black;
+    font-size: 23px;
+    display: block;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.main{
+background: url(../image/image1.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 5rem;
+
+}
+.main :nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+}
+.main p:nth-child(2){
+    font-size: 18px;
+    color:gray;
+}
+ .mbtn1{
+    height: 45px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4ms;
+}
+.mbtn1:hover{
+    background-color: rgb(13, 172, 13);
+}
+.main .mbtn2{
+    height: 45px;
+    width: 25%;
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    background-color: transparent;
+    color: rgb(20, 219, 20);
+border-radius: 50px;
+transition: all 0.5ms;
+
+}
+.mbtn2:hover{
+    background-color: rgb(13, 172, 13);
+    border: none;
+    color: white;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: rgb(20, 219, 20);
+    
+}
+/* === about === */
+.about{
+    background: url(../image/image7.jpg)no-repeat;
+    
+    background-size: cover;  
+    height: 100vh;
+    width: 100%;
+}
+.about h1{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+    
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color:gray;
+}
+/* ==== welcome ===  */
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+  margin-right: 50px;
+
+}
+.welcome{
+    background: rgb(20, 219, 20);
+}
+.welcome h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.welcome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+
+}
+.welcome i{
+    font-size: 45px;
+    color: rgb(20, 219, 20);
+    text-align: center;
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+
+}
+/* =======product====== */
+.product h1{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color:gray;
+}
+.line3{
+    height: 6px;
+    width: 30%;
+    background-color: rgb(20, 219, 20);
+    display: inline-block;
+  margin-right: 50px;
+
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.product .card{
+    border: none;
+    border-radius:0;
+    cursor: pointer;
+}
+.product .card-body{
+    border:1px dashed rgb(194, 194, 194);
+}
+.product .card-body img{
+    width: 100%;
+    height: 200px;
+}
+.product .card-body .btnc{
+    margin-left: 25%;
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.par1{
+    color: rgb(168.162,162);
+}
+.btnc{
+    height: 50px;
+    width:50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    border: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    color: rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+/* ==== discount === */
+.discount{
+    background: rgb(20, 219, 20);
+    color: white;
+}
+.dbtn{
+    height: 45px;
+    width: 50%;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+    font-weight: lighter;
+    color: black;
+}
+.dbtn:hover{
+    background: rgb(145, 147, 148);
+}
+/* =======store====== */
+.store h1{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color:gray;
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+.store .card:hover{
+    background: rgb(20, 219, 20);
+    color: white;
+}
+/* ======seller======== */
+.seller h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.seller i {
+    color: orange;
+    font-size: 20px;
+}
+.seller .card{
+    border-radius: 0;
+    border: none;
+}
+/* =======contact======== */
+/* .contact{
+  background: url(../image/contact.jpg);
+  background-size: cover;
+  width: 100%;
+} */
+.contact{
+    background-color: rgb(20, 219, 20);
+}
+.contact h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+
+}
+.contact p{
+    color: white;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background: white;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+}
+.contact input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.contact textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+/* =====footer==== */
+.footer{
+    background: gray;
+
+}
+.s1{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;;
+}
+.s1:hover{
+    background-color: rgb(20, 219, 20);
+    border: none;
+}
+.footer p{
+    color: aliceblue;
+}
+.s1 .bi-youtube{
+    color: rgb(247, 80, 29);
+}
+.s1 .bi-facebook{
+    color: rgb(47, 49, 218);
+}
+.s1 .bi-whatsapp{
+    color: rgb(79, 230, 41);
+}
+.s1 .bi-instagram{
+    color: rgb(218, 73, 47);
+}
